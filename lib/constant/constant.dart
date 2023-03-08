@@ -23,7 +23,7 @@ import 'package:video_compress/video_compress.dart';
 import 'package:video_thumbnail/video_thumbnail.dart';
 
 class Constant {
-  static String kGoogleApiKey = "AIzaSyBwKgjsCUvstJD_8KuJfqa68-q6gOIA280";
+  static String kGoogleApiKey = "AIzaSyBPMkfHdJkfAQBF2NXzNwKxUrcaUxgJyM4";
   static String distanceUnit = "KM";
   static String appVersion = "1.0";
   static int decimal = 2;
