@@ -165,7 +165,7 @@ class RentVehicleScreen extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Row(
-                        children: [
+                        children: const [
                           Padding(
                             padding: EdgeInsets.symmetric(vertical: 10),
                             child: Text(

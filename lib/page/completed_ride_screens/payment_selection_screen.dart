@@ -493,11 +493,11 @@ class PaymentSelectionScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  const Padding(
-                    padding: EdgeInsets.symmetric(vertical: 15),
-                    child: const Row(
+                  Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 15),
+                    child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
+                      children: const [
                         Text("Select payment Option", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, letterSpacing: 1.0, fontSize: 16)),
                       ],
                     ),
@@ -2018,14 +2018,14 @@ class PaymentSelectionScreen extends StatelessWidget {
         return CupertinoAlertDialog(
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
+            children: const [
               CircularProgressIndicator(),
               Text('Please wait!!'),
             ],
           ),
           content: SingleChildScrollView(
             child: ListBody(
-              children: <Widget>[
+              children: const <Widget>[
                 SizedBox(
                   height: 15,
                 ),

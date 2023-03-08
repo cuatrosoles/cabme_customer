@@ -553,7 +553,7 @@ class WalletScreen extends StatelessWidget {
                         ),
                       ),
                       Row(
-                        children: [
+                        children: const [
                           Padding(
                             padding: EdgeInsets.symmetric(
                               horizontal: 15.0,
@@ -1815,14 +1815,14 @@ class WalletScreen extends StatelessWidget {
         return CupertinoAlertDialog(
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
+            children: const [
               CircularProgressIndicator(),
               Text('Please wait!!'),
             ],
           ),
           content: SingleChildScrollView(
             child: ListBody(
-              children: <Widget>[
+              children: const <Widget>[
                 SizedBox(
                   height: 15,
                 ),
