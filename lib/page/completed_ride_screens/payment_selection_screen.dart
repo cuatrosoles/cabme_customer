@@ -493,11 +493,11 @@ class PaymentSelectionScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 15),
+                  const Padding(
+                    padding: EdgeInsets.symmetric(vertical: 15),
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Text("Select payment Option", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, letterSpacing: 1.0, fontSize: 16)),
                       ],
                     ),
@@ -2015,17 +2015,17 @@ class PaymentSelectionScreen extends StatelessWidget {
       useRootNavigator: true,
       barrierDismissible: false, // user must tap button!
       builder: (BuildContext context) {
-        return CupertinoAlertDialog(
+        return const CupertinoAlertDialog(
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: const [
+            children: [
               CircularProgressIndicator(),
               Text('Please wait!!'),
             ],
           ),
           content: SingleChildScrollView(
             child: ListBody(
-              children: const <Widget>[
+              children: <Widget>[
                 SizedBox(
                   height: 15,
                 ),

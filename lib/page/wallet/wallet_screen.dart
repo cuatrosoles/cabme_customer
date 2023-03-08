@@ -552,8 +552,8 @@ class WalletScreen extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Row(
-                        children: const [
+                      const Row(
+                        children: [
                           Padding(
                             padding: EdgeInsets.symmetric(
                               horizontal: 15.0,
@@ -1812,17 +1812,17 @@ class WalletScreen extends StatelessWidget {
       useRootNavigator: true,
       barrierDismissible: false, // user must tap button!
       builder: (BuildContext context) {
-        return CupertinoAlertDialog(
+        return const CupertinoAlertDialog(
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: const [
+            children: [
               CircularProgressIndicator(),
               Text('Please wait!!'),
             ],
           ),
           content: SingleChildScrollView(
             child: ListBody(
-              children: const <Widget>[
+              children: <Widget>[
                 SizedBox(
                   height: 15,
                 ),
