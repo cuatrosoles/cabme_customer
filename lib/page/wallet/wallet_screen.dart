@@ -552,7 +552,7 @@ class WalletScreen extends StatelessWidget {
                           ],
                         ),
                       ),
-                      const Row(
+                      Row(
                         children: [
                           Padding(
                             padding: EdgeInsets.symmetric(
@@ -1812,7 +1812,7 @@ class WalletScreen extends StatelessWidget {
       useRootNavigator: true,
       barrierDismissible: false, // user must tap button!
       builder: (BuildContext context) {
-        return const CupertinoAlertDialog(
+        return CupertinoAlertDialog(
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
